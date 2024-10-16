@@ -1,0 +1,19 @@
+p::first-letter {
+    font-size: 200%;
+    text-align: left;
+}
+
+p::first-line {
+    color: red;
+}
+
+p::selection {
+    color: red;
+    background-color: yellow;
+}
+
+h2::after {
+    content: "\f118";
+    font-family: 'Font Awesome 6 Free';
+    margin-left: 5px;
+}

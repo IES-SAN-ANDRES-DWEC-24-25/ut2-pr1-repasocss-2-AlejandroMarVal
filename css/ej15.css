@@ -1,0 +1,35 @@
+.rojo {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    z-index: -1;
+    position: absolute;
+}
+
+.verde {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    z-index: 1;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.azul {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    z-index: 0;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+div {
+    padding-top: 15px;
+}
+
+p {
+    margin-top: 300px;
+}

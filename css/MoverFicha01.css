@@ -1,0 +1,92 @@
+#caja1 img {
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+
+}
+
+#caja2 img {
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+}
+
+#caja4 img {
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    margin-left: 20%;
+}
+
+#ficha1 {
+    height: 40px;
+    width: 40px;
+    margin-left: 43px;
+    margin-top: -80px;
+    background-color: red;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid black;  
+} 
+
+#ficha2 {
+    height: 40px;
+    width: 40px;
+    margin-left: 53px;
+    margin-top: 50px;
+    background-color: green;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid black;  
+    
+}
+
+#ficha3 {
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    margin-top: -80px;
+    background-color: yellow;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+#ficha4 {
+    height: 40px;
+    width: 40px;
+    margin-left: 55px;
+    margin-top: -80px;
+    background-color: blue;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+body {
+    display: flex;
+}
+
+#caja {
+    display: inline-block;
+}
+
+p {
+    margin-top: 150px;
+    margin-left: -325px;
+}
